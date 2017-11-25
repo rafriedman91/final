@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+  color: beige;
+  background-color: black;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-family: sans-serif;
+  font-variant: small-caps;
+
+}
+
+.text {
+  color: grey;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-variant: normal;
+
+}
+
+
+.nav {
+  position: fixed;
+  top: 850px;
+  left: 47.5%;
+  z-index: 10;
+}
+
+.samplephotos {
+  width: 40%;
+  height: 40%;
+
+
+
+}
+
+.slide {
+  font-size: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: beige;
+
+  transition-property: left;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+
+  left: 100%;
+}
+.slide-visible {
+  left: 0%;
+}
